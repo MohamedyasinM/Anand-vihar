@@ -22,20 +22,20 @@ logger = logging.getLogger(__name__)
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-app = FastAPI()
+# Create one app instance only
+app = FastAPI(title="Anand Vihar Member Directory API", version="1.0.0")
 
-# 👇 Add CORS middleware
+# Add CORS middleware to this instance
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:3000",  # your local frontend
-        "https://anand-vihar-ebzn.onrender.com",  # optional if needed
+        "http://localhost:3000",
+        "https://anand-vihar-ebzn.onrender.com",
     ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 
 @dataclass
 class MemberDirectoryModel:

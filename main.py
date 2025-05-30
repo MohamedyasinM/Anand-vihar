@@ -36,7 +36,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 @dataclass
 class MemberDirectoryModel:
     """Data model for member directory information"""

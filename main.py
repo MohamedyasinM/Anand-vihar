@@ -27,7 +27,8 @@ app = FastAPI(title="Anand Vihar Member Directory API", version="1.0.0")
 
 # Add CORS middleware to this instance
 origins = [
-    "https://phoneorder.co",  # Add your frontend origin here
+    "https://phoneorder.co",
+    "http://phoneorder.co",# Add your frontend origin here
     "http://localhost:3000",  # Optional, for local dev
 ]
 

@@ -26,16 +26,20 @@ from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI(title="Anand Vihar Member Directory API", version="1.0.0")
 
 # Add CORS middleware to this instance
+origins = [
+    "https://phoneorder.co",  # Add your frontend origin here
+    "http://localhost:3000",  # Optional, for local dev
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:3000",
-        "https://anand-vihar-ebzn.onrender.com",
-    ],
+    allow_origins=origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
 @dataclass
 class MemberDirectoryModel:
     """Data model for member directory information"""

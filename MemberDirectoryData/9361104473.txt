@@ -1,0 +1,39 @@
+===========================================
+      ANAND VIHAR MEMBER DIRECTORY
+===========================================
+
+Record Created: May 30, 2025 at 11:27 AM
+Record ID: 4140f5a6-bff4-4600-860c-6050da040450
+
+PERSONAL INFORMATION:
+-------------------------------------------
+Name: mohamedyasin m
+Birthday: 17-10-2002
+
+CONTACT INFORMATION:
+-------------------------------------------
+Home Phone: 9361104473
+Mobile: 9361104473
+Email: yasin@gmial.com
+Address: chennai
+
+EMERGENCY CONTACT:
+-------------------------------------------
+Name: yasin
+Relationship: me
+Phone: 8098878125
+
+PRIVACY SETTINGS:
+-------------------------------------------
+Home Phone Visible: No
+Mobile Visible: No
+Email Visible: No
+Address Visible: No
+Birthday Visible: No
+Emergency Contact Visible: No
+
+Consent Given: No
+
+===========================================
+File saved as: 9361104473.txt
+===========================================
